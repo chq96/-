@@ -1,0 +1,135 @@
+
+body {
+    background: #F2F2F2;
+}
+
+.header {
+    position: relative;
+    min-height: 400px;
+    background: url(../images/head.jpg) no-repeat center 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.container>h1>a {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.container h2 {
+    color: white;
+    font-size: 34px;
+}
+
+.logo {
+    position: absolute;
+    bottom: -34px;
+    left: 1%;
+    right: 1%;
+}
+
+.content {
+    margin-top: 90px;
+}
+
+.main {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 85px;
+}
+
+.main h1 {
+    color: #563D7C;
+    text-align: center;
+}
+
+.main div {
+    padding: 12px;
+}
+
+.main img {
+    width: 100%;
+}
+
+.state {
+    background: #EEEEEE;
+    padding: 40px 0;
+}
+
+.state p {
+    text-align: center;
+}
+
+.footer {
+    background: #202020;
+    padding-top: 35px;
+    color: #959595;
+
+}
+
+.clm {
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.clm h4 {
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #303030;
+    position: relative;
+}
+
+.clm a {
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid #303030;
+    margin: 0 5px 10px 0;
+    color: #959595;
+}
+
+.clm a:hover {
+    color: white;
+    text-decoration: none;
+    background: #337AB7;
+}
+
+.line>a {
+    display: block;
+    border: 0;
+    border-bottom: 1px dashed #303030;
+    padding-bottom: 15px;
+}
+
+.line>a:hover {
+    color: white;
+    background: none;
+}
+
+.clm h4:after {
+    position: absolute;
+    display: block;
+    background: #337AB7;
+    content: "";
+    width: 90px;
+    height: 1px;
+    bottom: -1px;
+}
+
+
+.copyright {
+    text-align: center;
+    padding: 20px 0;
+    background: #111111;
+    font-size: 13px;
+    color: #555555;
+}
+
+.copyright a {
+    color: #555;
+}
+
+.copyright span {
+    margin: 0 8px;
+}
